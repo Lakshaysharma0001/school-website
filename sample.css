@@ -1,0 +1,66 @@
+
+header{
+    height: 100px;
+    width:100%;
+    background-color:black;
+    color:lightsalmon;
+    padding: 10px;
+}
+.container{
+   background-color:aqua ;
+}
+.div1{
+    width: 400px;
+    height: 500px;
+    padding-top: 10px;
+    background-color:white;
+   
+    text-align: center;
+    margin: 10px 10px 10px 50px;
+    
+}
+.div1:hover{
+    width: 430px;
+    background-color: blanchedalmond;
+    
+}
+.div2{
+    width: 400px;
+    height: 500px;
+    padding-top: 10px;
+    background-color:white;
+    position: absolute;
+    left: 550px;
+    top:980px;
+   
+    text-align: center;
+    margin: 10px;
+}
+.div2:hover{
+    width: 430px;
+    background-color: blanchedalmond;
+}
+.div3{
+    width: 400px;
+    height: 500px;
+    padding-top: 10px;
+    background-color:white;
+    position: absolute;
+    left: 1050px;
+    top:980px;
+   
+    text-align: center;
+    margin: 10px;
+}
+.div3:hover{
+    width: 430px;
+    background-color: blanchedalmond;
+}
+.dropdown-item:hover{
+    background-color:aquamarine;
+}
+footer{
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: right;
+}

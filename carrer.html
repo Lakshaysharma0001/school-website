@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+        }
+        .container{
+            font-style:italic;
+            color:black;
+            font-size: 30px;
+            text-align: center;
+            padding: 30px;
+            background-color: lightgreen;   
+        }
+        form{
+            
+            width:500px;
+            position: absolute;
+            top:200px;
+            left:510px
+            
+        }
+        input{
+            width: 500px;
+            height: 30px;
+            border-radius: 5px;          
+        }
+            label {
+            
+            width: 110px;
+            color: darkslateblue;
+            
+            }
+        .submit{
+            width:50opx;height:25px;border-radius:5px;background-color:lightgreen;
+        }
+        
+        .submit:hover{
+            background-color: green;
+            width: 505px;
+            height: 30px;    
+        }
+        select{
+            width:500px;
+            height:35px;
+            border-radius: 5px;
+            border: 1px solid black;   
+        }
+        header{
+            text-align: center;
+            font-size: 30px;
+            background-color: lightcoral;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>BAL KALYAN PUBLIC SR. SEC. SCHOOL</header>
+    <div class="container" >
+        JOB APPLY FORM
+    </div>
+    <div style="height:900px;background-color:rgb(121, 166, 166);margin:0px 300px 10px 300px;border:5px solid black;">
+        <CENTER><h1><U>CAREER</U></h1></CENTER>
+    <form action="/registerationsuccess.html">
+        <label>Name:</label>
+        <input name="first" type="text" size="80" required>
+        <br>
+        <label>Email Address:</label>
+        <input name="email" type="email" size="80">
+        <br>
+        <label>Address:</label>
+        <input name="add" type="text" size="80">
+        <br>
+        <label>Mobile NO:</label>
+        <input name="phoneno" type="text" size="80">
+        <br>
+        <label>Apply for job</label>
+        <input name="class" type="text" size="80">
+        <br>
+        <label>Previous School</label>
+        <input name="school" type="text" size="10">
+        <br
+        <label>Work Experince:</label>
+        <input name="last" type="text" size="80">
+        <br>
+        <label>Date of Birth:</label>
+        <input name="DOB" type="date" size="20" required>
+        <br>
+        <label>Education:</label>
+        <br>
+        <select name="education" id="class">
+            <option value="">Select Education</option>
+            <option value="VI">10th/12th</option>
+            <option value="VII">Under Graduation</option>
+            <option value="VII">Post Graduation</option>
+        </select>
+        <br>
+        <label>Gender:</label>
+        <br>
+        <select name="gender" id="class">
+            <option value="">Male</option>
+            <option value="VI">Female</option>
+        </select>
+        <br>
+        <label>Married Status:</label>
+        <br>
+        <select name="married" id="class">
+            <option value="">married</option>
+            <option value="VI">Unmarried</option>
+        </select>
+        <br>
+        <label>Message</label><br>
+        <textarea  style="width:500px;" name="feedback" placeholder="message....." rows="10"></textarea>
+        <br>
+        <input type="submit" value="submit" class="submit" >
+        
+</form>
+</div>             
+</body>
+</html>
